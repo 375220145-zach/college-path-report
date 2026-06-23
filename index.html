@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>大专升学方案 — 2026年7月毕业 · 入学规划</title>
+<title>大专升学方案报告 · 2026年入学</title>
 <style>
   :root {
     --bg:#fafaf8; --card:#fff; --text:#1a1a1a; --sub:#555; --accent:#1a6fb5;
@@ -14,66 +14,76 @@
   *{box-sizing:border-box;margin:0;padding:0}
   body{font-family:"PingFang SC","Noto Sans SC","Microsoft YaHei",system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--text);line-height:1.7;font-size:15px}
 
-  .hero{max-width:1040px;margin:0 auto;padding:40px 24px 28px;border-bottom:1px solid var(--border)}
-  .hero .tags{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px}
-  .hero .tags span{font-size:.78rem;padding:4px 12px;border-radius:99px;background:var(--b-bg);color:var(--b-txt);font-weight:500}
-  .hero h1{font-size:1.8rem;font-weight:800;letter-spacing:-0.02em;margin-bottom:6px}
-  .hero .sub{color:var(--sub);font-size:.9rem;line-height:1.6}
+  .hero{max-width:1040px;margin:0 auto;padding:36px 24px 24px;border-bottom:1px solid var(--border)}
+  .hero .tags{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
+  .hero .tags span{font-size:.76rem;padding:4px 12px;border-radius:99px;background:var(--b-bg);color:var(--b-txt);font-weight:500}
+  .hero h1{font-size:1.7rem;font-weight:800;letter-spacing:-0.02em;margin-bottom:4px}
+  .hero .sub{color:var(--sub);font-size:.87rem;line-height:1.6}
 
   .wrap{max-width:1040px;margin:0 auto;padding:0 24px 80px}
 
-  .tabs{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:28px;position:sticky;top:0;background:var(--bg);padding:14px 0;z-index:10;border-bottom:1px solid var(--border)}
-  .tab-btn{padding:7px 14px;border-radius:8px;border:1px solid var(--border);background:#fff;cursor:pointer;font-size:.83rem;font-weight:500;transition:all .15s;white-space:nowrap}
+  .tabs{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:24px;position:sticky;top:0;background:var(--bg);padding:12px 0;z-index:10;border-bottom:1px solid var(--border)}
+  .tab-btn{padding:7px 14px;border-radius:8px;border:1px solid var(--border);background:#fff;cursor:pointer;font-size:.81rem;font-weight:500;transition:all .15s;white-space:nowrap}
   .tab-btn:hover{border-color:var(--accent);color:var(--accent)}
   .tab-btn.active{background:var(--accent);color:#fff;border-color:var(--accent);font-weight:600}
   .tab-panel{display:none}
   .tab-panel.active{display:block}
 
-  .card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:28px;margin-bottom:18px;box-shadow:var(--shadow)}
-  .card h2{font-size:1.2rem;font-weight:700;margin-bottom:6px}
-  .card h3{font-size:.98rem;font-weight:600;margin:18px 0 8px;color:var(--accent)}
-  .card .tag-row{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
+  .card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:26px;margin-bottom:16px;box-shadow:var(--shadow)}
+  .card h2{font-size:1.15rem;font-weight:700;margin-bottom:4px}
+  .card h3{font-size:.95rem;font-weight:600;margin:16px 0 6px;color:var(--accent)}
 
-  table{width:100%;border-collapse:collapse;font-size:.85rem;margin:10px 0 14px}
+  table{width:100%;border-collapse:collapse;font-size:.84rem;margin:10px 0 12px}
   th,td{padding:9px 10px;text-align:left;border-bottom:1px solid var(--border)}
-  th{font-weight:600;background:#f8f8f4;font-size:.76rem;text-transform:uppercase;letter-spacing:.04em;color:var(--sub)}
+  th{font-weight:600;background:#f8f8f4;font-size:.75rem;text-transform:uppercase;letter-spacing:.04em;color:var(--sub)}
   tr:last-child td{border-bottom:none}
 
-  .badge{display:inline-block;padding:2px 9px;border-radius:6px;font-size:.75rem;font-weight:600;white-space:nowrap}
+  .badge{display:inline-block;padding:2px 9px;border-radius:6px;font-size:.74rem;font-weight:600;white-space:nowrap}
   .b-g{background:var(--g-bg);color:var(--g-txt)} .b-y{background:var(--y-bg);color:var(--y-txt)}
   .b-r{background:var(--r-bg);color:var(--r-txt)} .b-b{background:var(--b-bg);color:var(--b-txt)}
+  .badge-lg{padding:3px 10px;border-radius:6px;font-size:.82rem;font-weight:600}
 
   .qs{font-size:.73rem;padding:1px 6px;border-radius:4px;font-weight:600;margin-left:4px}
   .qs-h{background:#e4f3e4;color:#1e6b1e} .qs-m{background:#fff3d6;color:#b0700a} .qs-l{background:#f0f0f0;color:#888}
 
-  .box{margin:14px 0;padding:14px 16px;border-radius:10px;border-left:4px solid;font-size:.87rem}
-  .box-red{background:#fff7f7;border-color:#d94a4a} .box-yellow{background:#fffef8;border-color:#e0a830}
-  .box-blue{background:#f6fafe;border-color:var(--accent)} .box-green{background:#f5fdf7;border-color:#3a9d5a}
-  .box .box-title{font-weight:700;margin-bottom:3px;font-size:.86rem}
+  .box{margin:12px 0;padding:12px 15px;border-radius:10px;border-left:4px solid;font-size:.85rem}
+  .box-r{background:#fff7f7;border-color:#d94a4a} .box-y{background:#fffef8;border-color:#e0a830}
+  .box-b{background:#f6fafe;border-color:var(--accent)} .box-g{background:#f5fdf7;border-color:#3a9d5a}
+  .box .box-tt{font-weight:700;margin-bottom:2px;font-size:.84rem}
 
   .checklist{list-style:none;padding:0}
-  .checklist li{padding:5px 0 5px 22px;position:relative;font-size:.87rem}
+  .checklist li{padding:4px 0 4px 22px;position:relative;font-size:.85rem}
   .checklist li::before{content:"✓";position:absolute;left:0;color:var(--accent);font-weight:700}
 
   .steps{list-style:none;padding:0;counter-reset:step}
-  .steps li{counter-increment:step;padding:7px 0 7px 28px;position:relative;font-size:.86rem}
-  .steps li::before{content:counter(step);position:absolute;left:0;top:7px;width:19px;height:19px;background:var(--accent);color:#fff;font-size:.7rem;font-weight:700;text-align:center;line-height:19px;border-radius:50%}
+  .steps li{counter-increment:step;padding:6px 0 6px 28px;position:relative;font-size:.85rem}
+  .steps li::before{content:counter(step);position:absolute;left:0;top:6px;width:19px;height:19px;background:var(--accent);color:#fff;font-size:.68rem;font-weight:700;text-align:center;line-height:19px;border-radius:50%}
 
-  /* ── Cost table ── */
-  .cost-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;margin:10px 0}
-  .cost-item{background:#f8f8f4;padding:10px 12px;border-radius:8px;text-align:center}
-  .cost-item .amt{font-size:1.1rem;font-weight:700;color:var(--accent)}
-  .cost-item .lbl{font-size:.75rem;color:var(--sub);margin-top:2px}
+  .cost-row{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0}
+  .cost-tag{background:#f3f3f0;padding:5px 10px;border-radius:7px;font-size:.8rem;display:flex;align-items:center;gap:5px}
+  .cost-tag .c-num{font-weight:700;color:var(--accent)}
+  .cost-tag .c-lbl{color:var(--sub);font-size:.72rem}
 
-  /* ── Timeline ── */
-  .tl{position:relative;padding-left:28px;margin:16px 0}
+  .opt-card{border:1px solid var(--border);border-radius:10px;padding:18px;margin:12px 0}
+  .opt-card .opt-head{display:flex;align-items:center;gap:10px;margin-bottom:8px;flex-wrap:wrap}
+  .opt-card .opt-rank{font-size:1.4rem;line-height:1}
+  .opt-card .opt-name{font-weight:700;font-size:1rem}
+
+  .tl{position:relative;padding-left:28px;margin:14px 0}
   .tl::before{content:"";position:absolute;left:8px;top:0;bottom:0;width:2px;background:var(--border)}
-  .tl-item{position:relative;margin-bottom:16px}
-  .tl-item::before{content:"";position:absolute;left:-22px;top:6px;width:10px;height:10px;border-radius:50%;background:var(--accent)}
-  .tl-item .tl-date{font-size:.78rem;color:var(--sub);font-weight:600}
-  .tl-item .tl-content{font-size:.87rem;margin-top:2px}
+  .tl-i{position:relative;margin-bottom:14px}
+  .tl-i::before{content:"";position:absolute;left:-22px;top:5px;width:10px;height:10px;border-radius:50%;background:var(--accent)}
+  .tl-i .tld{font-size:.76rem;color:var(--sub);font-weight:600}
+  .tl-i .tlc{font-size:.85rem;margin-top:1px}
 
-  @media(max-width:640px){.hero h1{font-size:1.3rem}.card{padding:16px}table{font-size:.78rem}th,td{padding:7px 5px}}
+  /* Summary cards */
+  .summ-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px;margin:14px 0}
+  .summ-card{border:1px solid var(--border);border-radius:10px;padding:16px;background:var(--card);box-shadow:var(--shadow)}
+  .summ-card .sc-head{font-weight:700;font-size:.95rem;margin-bottom:6px}
+  .summ-card .sc-row{display:flex;justify-content:space-between;padding:3px 0;font-size:.83rem;border-bottom:1px dotted var(--border)}
+  .summ-card .sc-row:last-child{border-bottom:none}
+
+  @media(max-width:640px){.hero h1{font-size:1.3rem}.card{padding:16px}table{font-size:.77rem}th,td{padding:6px 5px}}
   @media print{.tabs{position:static}.tab-panel{display:block!important;page-break-before:always}body{font-size:13px}}
 </style>
 </head>
@@ -82,406 +92,573 @@
 <!-- ═══════════ HERO ═══════════ -->
 <div class="hero">
   <div class="tags">
-    <span>📐 广告设计 · 三年全日制大专</span><span>📊 成绩偏下</span><span>💰 总预算 ≤ 30 万</span><span>🗣️ 不打算考雅思</span><span>📅 2026年7月毕业</span>
+    <span>📐 广告设计 · 三年全日制大专</span><span>📊 成绩偏下</span><span>💰 预算 ≤ 30 万</span><span>🗣️ 不考雅思</span><span>📅 2026年7月毕业</span>
   </div>
   <h1>大专 → 本科升学方案报告</h1>
-  <p class="sub">
-    <strong>排序逻辑：越容易越好（门槛低 → 流程简单 → 毕业不难），同时保证认可度不过于差。</strong><br>
-    整理时间：2025年6月 ｜ 所有数据来源于院校官网、中留服公告、QS 2025 排名 ｜ 建议交叉验证后使用
-  </p>
+  <p class="sub">排序原则：<strong>越容易越好</strong>（门槛低 → 流程简单 → 不难毕业），同时保证认可度不过于差。整理于 2025年6月，数据来源：院校官网、中留服公告、QS 2025。</p>
 </div>
 
 <div class="wrap">
 
 <!-- ═══════════ TABS ═══════════ -->
 <div class="tabs" id="tabs">
-  <button class="tab-btn active" data-tab="tab-top">🥇 推荐排序</button>
-  <button class="tab-btn" data-tab="tab-compare">📊 路径对比总表</button>
-  <button class="tab-btn" data-tab="tab-cost">💰 费用拆解</button>
-  <button class="tab-btn" data-tab="tab-timeline">📅 时间规划</button>
-  <button class="tab-btn" data-tab="tab-detail">📋 各路径详情</button>
-  <button class="tab-btn" data-tab="tab-risk">⚠️ 风险与自查</button>
+  <button class="tab-btn active" data-tab="t-summary">📊 汇总</button>
+  <button class="tab-btn" data-tab="t-sg">🇸🇬 新加坡</button>
+  <button class="tab-btn" data-tab="t-kr">🇰🇷 韩国</button>
+  <button class="tab-btn" data-tab="t-cn">🇨🇳 国内</button>
+  <button class="tab-btn" data-tab="t-other">🌏 其他地区</button>
+  <button class="tab-btn" data-tab="t-plan">📅 时间规划 + 申请流程</button>
+  <button class="tab-btn" data-tab="t-risk">⚠️ 风险与自查</button>
 </div>
 
-<!-- ═══════════════════ TAB: 推荐排序 ═══════════════════ -->
-<div class="tab-panel active" id="tab-top">
+<!-- ═══════════════════ TAB: 汇总 ═══════════════════ -->
+<div class="tab-panel active" id="t-summary">
 
 <div class="card" style="border:2px solid var(--accent)">
-  <h2>🎯 排序逻辑</h2>
-  <p style="color:var(--sub);margin-bottom:4px">以下按<strong>"越容易越好"</strong>排列，同时设置了认可度底线（排除国开、印尼等太差的选项）。每一条都标注了"容易在哪"和"代价是什么"。</p>
+  <h2>🎯 一句话结论</h2>
+  <p style="font-size:1.05rem;margin-top:4px">
+    <strong>首选新加坡 EAIM（最省力）</strong>，<strong>次选韩国 3+1（排名+专业更优）</strong>，<strong>国内成考作为免费保底</strong>。三条路可以同时准备，互不冲突。
+  </p>
 </div>
 
-<!-- 1 -->
 <div class="card">
-  <div class="tag-row"><span style="font-size:1.6rem">🥇</span> <span class="badge b-g" style="font-size:.85rem">最容易</span> <span class="badge b-b">预算 ✓</span> <span class="badge b-b">免语言</span></div>
-  <h2>新加坡 EAIM 东亚管理学院 — 中文授课</h2>
-  <p style="color:var(--sub)">全程中文、不考任何英语、最快 8 个月拿英国本科学位。</p>
-  <table>
-    <tr><th style="width:100px">维度</th><th>详情</th></tr>
-    <tr><td>学位</td><td>英国胡弗汉顿大学 · 商务管理学士 <span class="qs qs-l">未入QS 1000</span></td></tr>
-    <tr><td>语言</td><td><span class="badge b-g">无任何英语要求</span> · 全程中文授课</td></tr>
-    <tr><td>学制</td><td>8–12 个月（所有方案中最短）</td></tr>
-    <tr><td>毕业</td><td>极低难度（中文授课，课程考核通过即可）</td></tr>
-    <tr><td>总预算</td><td><strong>≈15–18 万</strong>（详见费用拆解页）</td></tr>
-    <tr><td>认证</td><td><span class="badge b-g">正常</span> · 中留服可认证</td></tr>
-    <tr><td>申请入口</td><td><a href="https://eaim.edu.sg/zh/admission-international-students/">eaim.edu.sg/zh/admission-international-students/</a></td></tr>
-  </table>
-  <div class="box box-green"><div class="box-title">✅ 容易在哪</div>零英语 · 申请流程简单（交材料即可）· 学制最短 · 新加坡回国方便 · 学位证不标注"中文授课"</div>
-  <div class="box box-yellow"><div class="box-title">⚠️ 代价</div>英语无提升 · 合作大学排名低 · 仅有商务管理专业（与广告设计无关）· 简历面试时英语水平会暴露</div>
-</div>
-
-<!-- 2 -->
-<div class="card">
-  <div class="tag-row"><span style="font-size:1.6rem">🥈</span> <span class="badge b-g" style="font-size:.85rem">很容易</span> <span class="badge b-b">预算 ✓</span> <span class="badge b-b">免语言</span></div>
-  <h2>韩国 3+1 中文授课 — 视觉设计方向</h2>
-  <p style="color:var(--sub)">中文/双语授课，入学无韩语要求。1 年拿全日制本科。多校有视觉设计方向。</p>
-  <table>
-    <tr><th style="width:100px">首选</th><th>详情</th></tr>
-    <tr><td>东国大学 WISE</td><td>设计美术学 · <span class="qs qs-m">QS 世界 ~618</span> · 韩国综排 ~15 · 总预算 ≈12–15 万</td></tr>
-    <tr><td>世明大学</td><td>视觉设计（含广告设计方向）· 总预算 ≈10–14 万 · 2026.1.19-22 截止（3月批次）</td></tr>
-    <tr><td>启明大学</td><td>视觉设计系 · <span class="qs qs-l">QS 亚洲 580</span> · 总预算 ≈12–16 万 · 百年名校</td></tr>
-    <tr><td>大邱加图立</td><td>视觉设计 / 广告宣传 · 总预算 ≈10–14 万 · 2026.1.20 截止</td></tr>
-    <tr><td>毕业要求</td><td>修满学分 + 通常需修完 180–300h 韩语课（不影响入学，影响毕业）</td></tr>
-    <tr><td>认证</td><td><span class="badge b-g">正常</span> · 中留服可认证 · 韩国无加强审查记录</td></tr>
-  </table>
-  <div class="box box-green"><div class="box-title">✅ 容易在哪</div>入学免语言 · 1年毕业 · 10–15万预算友好 · 与广告设计背景自然衔接 · 东国大学QS排名不错</div>
-  <div class="box box-yellow"><div class="box-title">⚠️ 代价</div>需走中介（个人直申难）· 申请窗口极短（每年1月/7月）· 院校以地方私立大学为主 · 毕业需完成韩语课时 · 需要出国（相比国内路径）</div>
-</div>
-
-<!-- 3 -->
-<div class="card">
-  <div class="tag-row"><span style="font-size:1.6rem">🥉</span> <span class="badge b-y" style="font-size:.85rem">较容易</span> <span class="badge b-b">预算 ✓</span> <span class="badge b-b">校内测试</span></div>
-  <h2>新加坡 LSBF — 校内英语测试替代雅思</h2>
-  <p style="color:var(--sub)">不需提前考雅思，通过学校自己的英语测试即可入学。英文授课但新加坡华人环境友好。</p>
-  <table>
-    <tr><th style="width:100px">维度</th><th>详情</th></tr>
-    <tr><td>学位</td><td>英国东伦敦大学 · 商科学士 <span class="qs qs-l">未入QS 1000</span></td></tr>
-    <tr><td>语言</td><td><span class="badge b-b">校内英语测试</span> · 不需雅思/托福 · 通过即可入学</td></tr>
-    <tr><td>学制</td><td>8–12 个月</td></tr>
-    <tr><td>总预算</td><td><strong>≈15–18 万</strong></td></tr>
-    <tr><td>认证</td><td><span class="badge b-y">⚠️ 需避开格林威治合作</span> · 选东伦敦大学合作的项目则正常</td></tr>
-  </table>
-  <div class="box box-green"><div class="box-title">✅ 容易在哪</div>不考雅思只校内测 · 学制短 · 费用低 · 英文授课环境对英语有提升</div>
-  <div class="box box-red"><div class="box-title">🔴 必须注意</div>LSBF与格林威治大学的MBA项目被中留服点名加强审查。选择时必须确认合作大学是<strong>东伦敦大学（UEL）</strong>，避开一切格林威治合作项目。</div>
-</div>
-
-<!-- 4 -->
-<div class="card">
-  <div class="tag-row"><span style="font-size:1.6rem">4</span> <span class="badge b-y" style="font-size:.85rem">中等</span> <span class="badge b-y">预算紧</span> <span class="badge b-b">语言班</span></div>
-  <h2>新加坡 PSB / Kaplan — 校内语言班 + 排名较好的合作大学</h2>
-  <p style="color:var(--sub)">先读校内语言课程（通常 2–6 个月），通过后入正课。合作大学排名明显好于前三个选项。</p>
-  <table>
-    <tr><th style="width:100px"></th><th>PSB × 考文垂</th><th>Kaplan × UCD</th></tr>
-    <tr><td>学位 QS</td><td><span class="qs qs-m">QS 531</span></td><td><span class="qs qs-h">QS 126</span></td></tr>
-    <tr><td>语言</td><td>校内 CEP/CAE 语言课程</td><td>语言班衔接</td></tr>
-    <tr><td>学制</td><td>16–25 个月（含语言班）</td><td>18 个月（+语言班）</td></tr>
-    <tr><td>学费</td><td>≈14 万</td><td>≈15 万</td></tr>
-    <tr><td>总预算</td><td><strong>≈25–30 万</strong></td><td><strong>≈25–30 万</strong></td></tr>
-    <tr><td>专业</td><td>商科 / IT</td><td>商科 / 金融</td></tr>
-  </table>
-  <div class="box box-green"><div class="box-title">✅ 容易在哪</div>不需提前考雅思（校内语言班衔接）· 新加坡环境安全 · 合作大学QS排名高（Kaplan × UCD QS 126 是新加坡专升本中排名最高）</div>
-  <div class="box box-yellow"><div class="box-title">⚠️ 代价</div>预算紧（卡在30万上限）· 学制长于前三个方案 · 需要一定的英语基础才能通过语言班 · 转商科</div>
-</div>
-
-<!-- 5 -->
-<div class="card">
-  <div class="tag-row"><span style="font-size:1.6rem">5</span> <span class="badge b-g" style="font-size:.85rem">保底</span> <span class="badge b-b">不出国</span></div>
-  <h2>国内成人高考专升本 — 不出国的最简单选项</h2>
-  <table>
-    <tr><td style="width:100px">入学</td><td>每年10月全国统考（3门：政治+英语+艺术概论，总分450，录取线≈150）</td></tr>
-    <tr><td>学制</td><td>2.5 年固定</td></tr>
-    <tr><td>费用</td><td>学费 ≈2,500–4,000/年 × 2.5 年 ≈ <strong>6千–1万</strong></td></tr>
-    <tr><td>认可度</td><td>学位证标注"成人高等教育" · 私企就业可用 · 考公/考证/落户均有效 · 国企校招受限</td></tr>
-  </table>
-  <div class="box box-green"><div class="box-title">✅ 容易在哪</div>入学考试极简单（年满25岁加20分）· 不出国 · 不到1万 · 可以和其他方案并行准备</div>
-  <div class="box box-yellow"><div class="box-title">⚠️ 代价</div>2.5年学制最长 · 非全日制标签 · 认可度在全部方案中最低（但高于国开）</div>
-</div>
-
-</div><!-- /tab-top -->
-
-<!-- ═══════════════════ TAB: 路径对比总表 ═══════════════════ -->
-<div class="tab-panel" id="tab-compare">
-
-<div class="card">
-  <h2>📊 全部方案排序（简单度优先）</h2>
-  <p style="color:var(--sub);margin-bottom:12px">排序依据：越容易越好（语言门槛 → 申请复杂度 → 毕业难度），同时保证认可度不过于差。</p>
+  <h2>📊 全部方案一图纵览</h2>
+  <p style="color:var(--sub);margin-bottom:12px">按"越容易越好"排列。绿色 = 推荐，黄色 = 可选但需注意，红色 = 不推荐。</p>
   <div style="overflow-x:auto">
   <table>
-    <thead><tr><th>#</th><th>路径</th><th>国家</th><th>时长</th><th>语言门槛</th><th>毕业</th><th>预算(万)</th><th>认可度</th><th>学位 QS</th><th>认证</th></tr></thead>
+    <thead><tr><th>#</th><th>地区</th><th>方案</th><th>时长</th><th>语言门槛</th><th>总预算</th><th>认可度</th><th>最大优势</th><th>最大代价</th></tr></thead>
     <tbody>
-      <tr style="background:#f0faf4"><td>🥇</td><td><strong>EAIM 中文</strong></td><td>🇸🇬</td><td>8–12月</td><td><span class="badge b-g">零</span></td><td>⭐</td><td>15–18</td><td>⭐⭐</td><td>不入QS</td><td>✅</td></tr>
-      <tr style="background:#f0faf4"><td>🥈</td><td><strong>韩国 3+1</strong></td><td>🇰🇷</td><td>1年</td><td><span class="badge b-g">零</span></td><td>⭐⭐</td><td>10–15</td><td>⭐⭐⭐</td><td>东国QS618</td><td>✅</td></tr>
-      <tr><td>🥉</td><td><strong>LSBF 东伦敦</strong></td><td>🇸🇬</td><td>8–12月</td><td><span class="badge b-b">校内测试</span></td><td>⭐⭐</td><td>15–18</td><td>⭐⭐⭐</td><td>不入QS</td><td>⚠️中</td></tr>
-      <tr><td>4</td><td><strong>PSB 考文垂</strong></td><td>🇸🇬</td><td>16–25月</td><td><span class="badge b-b">语言班</span></td><td>⭐⭐</td><td>25–30</td><td>⭐⭐⭐⭐</td><td>QS531</td><td>✅</td></tr>
-      <tr><td>5</td><td><strong>Kaplan UCD</strong></td><td>🇸🇬</td><td>18月</td><td><span class="badge b-b">语言班</span></td><td>⭐⭐</td><td>25–30</td><td>⭐⭐⭐⭐</td><td>QS126</td><td>✅</td></tr>
-      <tr><td>6</td><td><strong>国内成考</strong></td><td>🇨🇳</td><td>2.5年</td><td><span class="badge b-g">零</span></td><td>⭐</td><td>&lt;1</td><td>⭐⭐</td><td>—</td><td>✅</td></tr>
-      <tr><td>7</td><td>英国 Top-up</td><td>🇬🇧</td><td>1年</td><td><span class="badge b-y">雅思5.5+</span></td><td>⭐⭐⭐</td><td>22–32</td><td>⭐⭐⭐⭐</td><td>QS500–800</td><td>✅</td></tr>
-      <tr><td>8</td><td>马来西亚</td><td>🇲🇾</td><td>1.5–3年</td><td><span class="badge b-b">语言班</span></td><td>⭐⭐</td><td>12–18</td><td>⭐⭐</td><td>—</td><td>⚠️高</td></tr>
-      <tr><td>9</td><td>爱尔兰 Top-up</td><td>🇮🇪</td><td>1年</td><td><span class="badge b-y">多邻国</span></td><td>⭐⭐⭐</td><td>20–25</td><td>⭐⭐⭐⭐</td><td>—</td><td>✅</td></tr>
-      <tr><td>10</td><td>泰国</td><td>🇹🇭</td><td>1–2年</td><td><span class="badge b-g">零</span></td><td>⭐⭐</td><td>8–15</td><td>⭐⭐</td><td>不入QS</td><td>⚠️高</td></tr>
-      <tr><td>11</td><td>澳洲 Top-up</td><td>🇦🇺</td><td>1–2年</td><td><span class="badge b-y">雅思6.0+</span></td><td>⭐⭐⭐</td><td>40–50</td><td>⭐⭐⭐⭐⭐</td><td>QS88–179</td><td>✅</td></tr>
+      <tr style="background:#f0faf4">
+        <td>🥇</td><td>🇸🇬</td><td><strong>EAIM 中文授课</strong></td><td>8–12月</td><td><span class="badge b-g">零英语</span></td><td>15–18万</td><td>⭐⭐</td><td>最简单 · 最快拿证</td><td>QS低 · 转商科</td>
+      </tr>
+      <tr style="background:#f0faf4">
+        <td>🥈</td><td>🇰🇷</td><td><strong>韩国 3+1 视觉设计</strong></td><td>1年</td><td><span class="badge b-g">零韩语</span></td><td>10–15万</td><td>⭐⭐⭐</td><td>东国QS618 · 专业衔接</td><td>需中介 · 窗口短</td>
+      </tr>
+      <tr>
+        <td>🥉</td><td>🇸🇬</td><td><strong>LSBF 校内测试</strong></td><td>8–12月</td><td><span class="badge b-b">校内测</span></td><td>15–18万</td><td>⭐⭐⭐</td><td>性价比 · 英语授课</td><td>⚠️避开格林威治</td>
+      </tr>
+      <tr>
+        <td>4</td><td>🇸🇬</td><td><strong>PSB × 考文垂</strong></td><td>16–25月</td><td><span class="badge b-b">语言班</span></td><td>25–30万</td><td>⭐⭐⭐⭐</td><td>QS531 · 认可度好</td><td>预算到顶 · 学制长</td>
+      </tr>
+      <tr>
+        <td>5</td><td>🇸🇬</td><td><strong>Kaplan × UCD</strong></td><td>18月</td><td><span class="badge b-b">语言班</span></td><td>25–30万</td><td>⭐⭐⭐⭐</td><td>QS126 · 排名最高</td><td>预算到顶</td>
+      </tr>
+      <tr>
+        <td>6</td><td>🇨🇳</td><td><strong>成人高考专升本</strong></td><td>2.5年</td><td><span class="badge b-g">零</span></td><td>&lt;1万</td><td>⭐⭐</td><td>不出国 · 极便宜</td><td>学制长 · 非全日制</td>
+      </tr>
+      <tr style="color:#999">
+        <td>7</td><td>🇬🇧</td><td>英国 Top-up</td><td>1年</td><td><span class="badge b-y">雅思5.5+</span></td><td>22–32万</td><td>⭐⭐⭐⭐</td><td>QS500+ · 1年</td><td>需雅思 · 预算紧</td>
+      </tr>
+      <tr style="color:#999">
+        <td>8</td><td>🇲🇾</td><td>马来西亚</td><td>1.5–3年</td><td><span class="badge b-b">语言班</span></td><td>12–18万</td><td>⭐⭐</td><td>便宜</td><td>认证风险高</td>
+      </tr>
+      <tr style="color:#bbb">
+        <td>9</td><td>🇹🇭</td><td>泰国</td><td>1–2年</td><td><span class="badge b-g">零</span></td><td>8–15万</td><td>⭐⭐</td><td>极便宜</td><td>认证风险高 · 认知度低</td>
+      </tr>
+      <tr style="color:#bbb">
+        <td>10</td><td>🇦🇺</td><td>澳洲 Top-up</td><td>1–2年</td><td><span class="badge b-y">雅思6.0+</span></td><td>40–50万</td><td>⭐⭐⭐⭐⭐</td><td>QS高 · 可移民</td><td>超预算 · 需雅思</td>
+      </tr>
     </tbody>
   </table>
   </div>
-  <p style="font-size:.78rem;color:var(--sub)">💡 代表院校的 QS 排名标注的是<strong>合作大学/学位颁发院校</strong>的排名，不是私立学院本身的排名。例如"Kaplan × UCD QS 126"指学位由爱尔兰国立都柏林大学颁发（该校 QS 全球第 126 位）。</p>
 </div>
 
 <div class="card">
-  <h2>🗣️ 按语言门槛分类</h2>
-  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px">
-    <div style="background:#f0faf4;padding:14px;border-radius:10px">
-      <strong style="color:#145c2e">🟢 完全不需要英语考试</strong>
-      <ul style="padding-left:18px;margin:4px 0 0;font-size:.84rem">
-        <li>🥇 EAIM 中文授课</li><li>🥈 韩国 3+1 中文/双语</li><li>⑥ 国内成考</li><li>⑩ 泰国（但认证风险高）</li>
-      </ul>
+  <h2>🗺️ 快速决策指南</h2>
+  <div class="summ-grid">
+    <div class="summ-card" style="border-color:var(--accent)">
+      <div class="sc-head">🏆 如果"什么都不想考，越快越好"</div>
+      <div class="sc-row"><span>→ 新加坡 EAIM 中文授课</span><span>8–12月 · 15–18万</span></div>
     </div>
-    <div style="background:#f0f4fa;padding:14px;border-radius:10px">
-      <strong style="color:#0c3d66">🔵 校内测试/语言班（不提前考）</strong>
-      <ul style="padding-left:18px;margin:4px 0 0;font-size:.84rem">
-        <li>🥉 LSBF 校内英语测试</li><li>④ PSB 语言班</li><li>⑤ Kaplan 语言班</li><li>⑧ 马来西亚 语言班</li>
-      </ul>
+    <div class="summ-card" style="border-color:#3a9d5a">
+      <div class="sc-head">🎓 如果"愿意出国 + 排名好一点 + 能延续设计"</div>
+      <div class="sc-row"><span>→ 韩国 3+1（东国大学 QS618 优先）</span><span>1年 · 10–15万</span></div>
     </div>
-    <div style="background:#fffef8;padding:14px;border-radius:10px">
-      <strong style="color:#7c5e00">🟡 需提前考英语（雅思/多邻国）</strong>
-      <ul style="padding-left:18px;margin:4px 0 0;font-size:.84rem">
-        <li>⑦ 英国（雅思 5.5+ 或配语言班）</li><li>⑨ 爱尔兰（多邻国，线上考更简单）</li><li>⑪ 澳洲（雅思 6.0+，超出预算）</li>
-      </ul>
+    <div class="summ-card" style="border-color:#e0a830">
+      <div class="sc-head">🛡️ 如果"先有个保底，万一出国没走成"</div>
+      <div class="sc-row"><span>→ 国内成人高考（8月报名）</span><span>2.5年 · &lt;1万</span></div>
+    </div>
+    <div class="summ-card">
+      <div class="sc-head">🏅 如果"努把力考雅思也愿意"</div>
+      <div class="sc-row"><span>→ 英国 Top-up 设计类</span><span>1年 · 22–32万</span></div>
     </div>
   </div>
 </div>
 
-</div><!-- /tab-compare -->
+</div><!-- /t-summary -->
 
-<!-- ═══════════════════ TAB: 费用拆解 ═══════════════════ -->
-<div class="tab-panel" id="tab-cost">
+<!-- ═══════════════════ TAB: 新加坡 ═══════════════════ -->
+<div class="tab-panel" id="t-sg">
 
 <div class="card">
-  <h2>💰 前 5 条推荐路径费用详细拆解</h2>
-  <p style="color:var(--sub);margin-bottom:16px">所有金额为人民币估算（汇率按 1 SGD≈5.4 RMB / 1 KRW≈0.0053 RMB / 1 GBP≈9.2 RMB）。实际费用以入学年份为准，上下浮动约 10%。</p>
-
-  <!-- 🥇 EAIM -->
-  <h3>🥇 新加坡 EAIM 中文授课 · <span style="font-weight:400;color:var(--sub)">8–12 个月 · 总预算 15–18 万</span></h3>
-  <div class="cost-grid">
-    <div class="cost-item"><div class="amt">≈10 万</div><div class="lbl">学费（1.9万新币）</div></div>
-    <div class="cost-item"><div class="amt">≈4.5–6 万</div><div class="lbl">住宿（合租 HDB/公寓 400–550 SGD/月）</div></div>
-    <div class="cost-item"><div class="amt">≈1.5–2 万</div><div class="lbl">伙食+交通+通讯</div></div>
-    <div class="cost-item"><div class="amt">≈0.3–0.5 万</div><div class="lbl">申请费+签证+保险+体检</div></div>
-    <div class="cost-item"><div class="amt">≈0.1 万</div><div class="lbl">材料公证翻译</div></div>
-    <div class="cost-item"><div class="amt">0</div><div class="lbl">语言班费用（不需要）</div></div>
-  </div>
-
-  <!-- 🥈 韩国 -->
-  <h3>🥈 韩国 3+1 中文授课 · <span style="font-weight:400;color:var(--sub)">1 年 · 总预算 10–15 万</span></h3>
-  <div class="cost-grid">
-    <div class="cost-item"><div class="amt">≈3.5–5 万</div><div class="lbl">学费（2 学期）</div></div>
-    <div class="cost-item"><div class="amt">≈3–4 万</div><div class="lbl">住宿（校内宿舍/校外租房 1500–2500/月）</div></div>
-    <div class="cost-item"><div class="amt">≈2–3 万</div><div class="lbl">伙食+交通+通讯</div></div>
-    <div class="cost-item"><div class="amt">≈1–2 万</div><div class="lbl">留学中介服务费</div></div>
-    <div class="cost-item"><div class="amt">≈0.3–0.5 万</div><div class="lbl">签证+保险+公证+双认证</div></div>
-    <div class="cost-item"><div class="amt">0</div><div class="lbl">语言班费用（中文授课不需要）</div></div>
-  </div>
-
-  <!-- 🥉 LSBF -->
-  <h3>🥉 新加坡 LSBF · <span style="font-weight:400;color:var(--sub)">8–12 个月 · 总预算 15–18 万</span></h3>
-  <div class="cost-grid">
-    <div class="cost-item"><div class="amt">≈7.5–8.5 万</div><div class="lbl">学费</div></div>
-    <div class="cost-item"><div class="amt">≈4.5–6 万</div><div class="lbl">住宿（合租 400–550 SGD/月）</div></div>
-    <div class="cost-item"><div class="amt">≈1.5–2 万</div><div class="lbl">伙食+交通+通讯</div></div>
-    <div class="cost-item"><div class="amt">≈0.4–0.6 万</div><div class="lbl">申请费+签证+保险+体检</div></div>
-    <div class="cost-item"><div class="amt">≈0.1 万</div><div class="lbl">材料公证翻译</div></div>
-    <div class="cost-item"><div class="amt">0</div><div class="lbl">语言班（校内测试免费，如需补英语课另计 ≈1–2万）</div></div>
-  </div>
-
-  <!-- 4 PSB -->
-  <h3>④ 新加坡 PSB · <span style="font-weight:400;color:var(--sub)">16–25 个月 · 总预算 25–30 万</span></h3>
-  <div class="cost-grid">
-    <div class="cost-item"><div class="amt">≈13–15 万</div><div class="lbl">学费</div></div>
-    <div class="cost-item"><div class="amt">≈8–12 万</div><div class="lbl">住宿（16–25个月）</div></div>
-    <div class="cost-item"><div class="amt">≈3–4 万</div><div class="lbl">伙食+交通+通讯</div></div>
-    <div class="cost-item"><div class="amt">≈0.5 万</div><div class="lbl">申请费+签证+保险</div></div>
-    <div class="cost-item"><div class="amt">≈1–2 万</div><div class="lbl">语言班（CEP/CAE课程，按级别收费）</div></div>
-  </div>
-
-  <!-- 5 Kaplan -->
-  <h3>⑤ 新加坡 Kaplan · <span style="font-weight:400;color:var(--sub)">18 个月 · 总预算 25–30 万</span></h3>
-  <div class="cost-grid">
-    <div class="cost-item"><div class="amt">≈14–17 万</div><div class="lbl">学费</div></div>
-    <div class="cost-item"><div class="amt">≈9–11 万</div><div class="lbl">住宿（18个月）</div></div>
-    <div class="cost-item"><div class="amt">≈3–4 万</div><div class="lbl">伙食+交通+通讯</div></div>
-    <div class="cost-item"><div class="amt">≈0.5 万</div><div class="lbl">申请费+签证+保险</div></div>
-    <div class="cost-item"><div class="amt">≈1–2 万</div><div class="lbl">语言班（如需）</div></div>
-  </div>
-
-  <!-- 6 国内成考 -->
-  <h3>⑥ 国内成人高考 · <span style="font-weight:400;color:var(--sub)">2.5 年 · 总预算 &lt;1 万</span></h3>
-  <div class="cost-grid">
-    <div class="cost-item"><div class="amt">≈0.6–1 万</div><div class="lbl">学费（2500–4000/年 × 2.5年）</div></div>
-    <div class="cost-item"><div class="amt">≈0.02 万</div><div class="lbl">考试报名费</div></div>
-    <div class="cost-item"><div class="amt">≈0.03 万</div><div class="lbl">教材费</div></div>
-    <div class="cost-item"><div class="amt">0</div><div class="lbl">不出国，无住宿/签证费</div></div>
-  </div>
+  <h2>🇸🇬 新加坡 — 家庭首选地 · 4 条路径按简单度排序</h2>
+  <p style="color:var(--sub)">新加坡是家长最放心的目的地。安全、近、华人社会。以下从最省力到认可度最好排列。⚠️ 广告设计专业在新加坡路径基本是转商科。</p>
 </div>
 
-<div class="card">
-  <h2>📌 新加坡生活费详细参考（通用）</h2>
+<!-- SG-1 EAIM -->
+<div class="opt-card" style="border-color:var(--accent);background:#fafdfb">
+  <div class="opt-head">
+    <span class="opt-rank">🥇</span>
+    <span class="opt-name">EAIM 东亚管理学院 — 中文授课</span>
+    <span class="badge-lg b-g">最容易</span>
+    <span class="badge b-b">预算 ✓</span>
+  </div>
   <table>
-    <tr><th>项目</th><th>月均费用（SGD）</th><th>月均费用（RMB）</th><th>说明</th></tr>
-    <tr><td>住宿（合租 HDB 普通房）</td><td>400–600</td><td>2,200–3,200</td><td>含水电网络</td></tr>
-    <tr><td>住宿（合租公寓主人房）</td><td>700–1,200</td><td>3,800–6,500</td><td>含独立卫浴</td></tr>
-    <tr><td>伙食</td><td>300–500</td><td>1,600–2,700</td><td>食阁为主，偶尔外食</td></tr>
-    <tr><td>交通</td><td>50–100</td><td>270–540</td><td>MRT+巴士</td></tr>
-    <tr><td>手机+网络</td><td>20–40</td><td>110–220</td><td>SIM-only 套餐</td></tr>
-    <tr><td>杂费（日用品/娱乐）</td><td>100–200</td><td>540–1,100</td><td>——</td></tr>
-    <tr><td><strong>月均合计</strong></td><td><strong>870–1,440</strong></td><td><strong>4,700–7,800</strong></td><td>按合租 HDB+节俭生活约 5,000/月</td></tr>
+    <tr><td style="width:90px">学位</td><td>英国胡弗汉顿大学 · 商务管理学士 <span class="qs qs-l">未入QS 1000</span></td></tr>
+    <tr><td>语言</td><td><span class="badge b-g">零英语要求</span> · 全程中文授课</td></tr>
+    <tr><td>学制</td><td>8–12 个月（所有方案中最短）</td></tr>
+    <tr><td>认证</td><td><span class="badge b-g">中留服正常</span></td></tr>
+    <tr><td>申请</td><td><a href="https://eaim.edu.sg/zh/admission-international-students/">eaim.edu.sg/zh/admission-international-students/</a></td></tr>
+  </table>
+  <div class="cost-row">
+    <div class="cost-tag"><span class="c-lbl">学费</span><span class="c-num">≈10万</span></div>
+    <div class="cost-tag"><span class="c-lbl">住宿</span><span class="c-num">≈4.5–6万</span></div>
+    <div class="cost-tag"><span class="c-lbl">伙食交通</span><span class="c-num">≈1.5–2万</span></div>
+    <div class="cost-tag"><span class="c-lbl">申请签证保险</span><span class="c-num">≈0.3–0.5万</span></div>
+    <div class="cost-tag"><span class="c-lbl">公证</span><span class="c-num">≈0.1万</span></div>
+    <div class="cost-tag"><span class="c-lbl">语言班</span><span class="c-num">0</span></div>
+    <div class="cost-tag" style="background:var(--b-bg)"><span class="c-lbl">总预算</span><span class="c-num">≈15–18万</span></div>
+  </div>
+  <div class="box box-g"><div class="box-tt">✅ 为什么排第一</div>零英语 · 申请只交材料不面试 · 8个月最快拿证 · 新加坡回国便利 · 学位证不写"中文授课"</div>
+  <div class="box box-y"><div class="box-tt">⚠️ 代价</div>英语零提升 · 合作大学QS低 · 仅有商务管理（与设计无关）· 面试时英语会暴露</div>
+</div>
+
+<!-- SG-2 LSBF -->
+<div class="opt-card">
+  <div class="opt-head">
+    <span class="opt-rank">🥉</span>
+    <span class="opt-name">LSBF 新加坡 — 校内英语测试替代雅思</span>
+    <span class="badge-lg b-b">校内测试</span>
+    <span class="badge b-b">预算 ✓</span>
+  </div>
+  <table>
+    <tr><td style="width:90px">学位</td><td>英国东伦敦大学 · 商科学士 <span class="qs qs-l">未入QS 1000</span></td></tr>
+    <tr><td>语言</td><td><span class="badge b-b">校内英语测试</span> · 不考雅思 · 通过即可入学</td></tr>
+    <tr><td>学制</td><td>8–12 个月</td></tr>
+    <tr><td>认证</td><td><span class="badge b-y">⚠️ 选 UEL 正常 · 避开 Greenwich</span></td></tr>
+    <tr><td>申请</td><td><a href="https://www.lsbf.edu.sg/admissions/how-to-apply">lsbf.edu.sg/admissions/how-to-apply</a></td></tr>
+  </table>
+  <div class="cost-row">
+    <div class="cost-tag"><span class="c-lbl">学费</span><span class="c-num">≈7.5–8.5万</span></div>
+    <div class="cost-tag"><span class="c-lbl">住宿</span><span class="c-num">≈4.5–6万</span></div>
+    <div class="cost-tag"><span class="c-lbl">伙食交通</span><span class="c-num">≈1.5–2万</span></div>
+    <div class="cost-tag"><span class="c-lbl">申请签证保险</span><span class="c-num">≈0.4–0.6万</span></div>
+    <div class="cost-tag"><span class="c-lbl">公证</span><span class="c-num">≈0.1万</span></div>
+    <div class="cost-tag"><span class="c-lbl">语言班（如需）</span><span class="c-num">≈1–2万</span></div>
+    <div class="cost-tag" style="background:var(--b-bg)"><span class="c-lbl">总预算</span><span class="c-num">≈15–18万</span></div>
+  </div>
+  <div class="box box-g"><div class="box-tt">✅ 为什么排第三</div>不提前考雅思只校内测 · 英文授课对英语有提升 · 学制短 · 学费新加坡最低</div>
+  <div class="box box-r"><div class="box-tt">🔴 必须注意</div>LSBF×格林威治大学MBA项目被中留服点名（公告六第13项）。选东伦敦大学（UEL）合作项目则安全。</div>
+</div>
+
+<!-- SG-3 PSB -->
+<div class="opt-card">
+  <div class="opt-head">
+    <span class="opt-rank">4</span>
+    <span class="opt-name">PSB 学院 × 考文垂大学</span>
+    <span class="badge-lg b-y">需语言班</span>
+    <span class="badge b-y">预算到顶</span>
+  </div>
+  <table>
+    <tr><td style="width:90px">学位</td><td>英国考文垂大学 <span class="qs qs-m">QS 531</span> · 商科/IT学士</td></tr>
+    <tr><td>语言</td><td>雅思6.0 或 <span class="badge b-b">校内 CEP/CAE 语言课程</span>（不需提前考）</td></tr>
+    <tr><td>学制</td><td>16–25 个月（含语言班）</td></tr>
+    <tr><td>认证</td><td><span class="badge b-g">中留服正常</span></td></tr>
+    <tr><td>申请</td><td><a href="https://www.psb-academy.edu.sg">psb-academy.edu.sg</a></td></tr>
+  </table>
+  <div class="cost-row">
+    <div class="cost-tag"><span class="c-lbl">学费</span><span class="c-num">≈13–15万</span></div>
+    <div class="cost-tag"><span class="c-lbl">住宿(16–25月)</span><span class="c-num">≈8–12万</span></div>
+    <div class="cost-tag"><span class="c-lbl">伙食交通</span><span class="c-num">≈3–4万</span></div>
+    <div class="cost-tag"><span class="c-lbl">申请签证</span><span class="c-num">≈0.5万</span></div>
+    <div class="cost-tag"><span class="c-lbl">语言班</span><span class="c-num">≈1–2万</span></div>
+    <div class="cost-tag" style="background:var(--y-bg)"><span class="c-lbl">总预算</span><span class="c-num">≈25–30万</span></div>
+  </div>
+  <div class="box box-g"><div class="box-tt">✅ 优势</div>QS531合作大学排名不错 · 不需提前考雅思 · 新加坡老牌学院 · 1964年建校</div>
+  <div class="box box-y"><div class="box-tt">⚠️ 代价</div>预算卡30万上限 · 学制1.5–2年比EAIM/LSBF长一倍 · 需读完语言班才能进正课</div>
+</div>
+
+<!-- SG-4 Kaplan -->
+<div class="opt-card">
+  <div class="opt-head">
+    <span class="opt-rank">5</span>
+    <span class="opt-name">Kaplan × 爱尔兰国立都柏林大学（UCD）</span>
+    <span class="badge-lg b-y">需语言班</span>
+    <span class="badge b-y">预算到顶</span>
+  </div>
+  <table>
+    <tr><td style="width:90px">学位</td><td>爱尔兰国立都柏林大学 <span class="qs qs-h">QS 126</span> · 商科/金融学士</td></tr>
+    <tr><td>语言</td><td>雅思6.0 或 <span class="badge b-b">语言班衔接</span></td></tr>
+    <tr><td>学制</td><td>18 个月（+ 语言班）</td></tr>
+    <tr><td>认证</td><td><span class="badge b-g">中留服正常</span></td></tr>
+    <tr><td>申请</td><td><a href="https://www.kaplan.com.sg">kaplan.com.sg</a></td></tr>
+  </table>
+  <div class="cost-row">
+    <div class="cost-tag"><span class="c-lbl">学费</span><span class="c-num">≈14–17万</span></div>
+    <div class="cost-tag"><span class="c-lbl">住宿(18月+)</span><span class="c-num">≈9–11万</span></div>
+    <div class="cost-tag"><span class="c-lbl">伙食交通</span><span class="c-num">≈3–4万</span></div>
+    <div class="cost-tag"><span class="c-lbl">申请签证</span><span class="c-num">≈0.5万</span></div>
+    <div class="cost-tag"><span class="c-lbl">语言班</span><span class="c-num">≈1–2万</span></div>
+    <div class="cost-tag" style="background:var(--y-bg)"><span class="c-lbl">总预算</span><span class="c-num">≈25–30万</span></div>
+  </div>
+  <div class="box box-g"><div class="box-tt">✅ 优势</div>合作大学QS126是所有新加坡专升本中排名最高的 · 学位含金量好</div>
+  <div class="box box-y"><div class="box-tt">⚠️ 代价</div>预算卡上限 · 学制最长 · 需语言班衔接</div>
+</div>
+
+</div><!-- /t-sg -->
+
+<!-- ═══════════════════ TAB: 韩国 ═══════════════════ -->
+<div class="tab-panel" id="t-kr">
+
+<div class="card">
+  <h2>🇰🇷 韩国 3+1 中文授课 — 视觉设计方向</h2>
+  <p style="color:var(--sub)">核心模式：国内3年大专 → 插班韩国大四（1年）→ 全日制本科。中文或中韩双语授课，入学无韩语要求。广告设计背景可对接视觉设计专业。</p>
+</div>
+
+<!-- KR-1 东国大学 -->
+<div class="opt-card" style="border-color:var(--accent);background:#fafdfb">
+  <div class="opt-head">
+    <span class="opt-rank">🥇</span>
+    <span class="opt-name">东国大学 WISE 校区</span>
+    <span class="badge-lg b-g">推荐</span>
+    <span class="qs qs-m">QS 世界 ~618</span>
+  </div>
+  <table>
+    <tr><td style="width:90px">专业</td><td>设计美术学系</td></tr>
+    <tr><td>授课</td><td>中韩双语 · 入学无韩语要求</td></tr>
+    <tr><td>学制</td><td>1 年（插班大四）</td></tr>
+    <tr><td>毕业</td><td>修满学分 + 韩语课时（通常 180–300h）</td></tr>
+    <tr><td>申请</td><td>春季：11–12月 · 秋季：5–6月</td></tr>
+    <tr><td>亮点</td><td><strong>QS 排名最高的韩国3+1选项</strong> · 韩国综合排名约第15</td></tr>
+  </table>
+  <div class="cost-row">
+    <div class="cost-tag"><span class="c-lbl">学费(2学期)</span><span class="c-num">≈3.5–4万</span></div>
+    <div class="cost-tag"><span class="c-lbl">住宿</span><span class="c-num">≈3–4万</span></div>
+    <div class="cost-tag"><span class="c-lbl">伙食交通</span><span class="c-num">≈2–3万</span></div>
+    <div class="cost-tag"><span class="c-lbl">中介费</span><span class="c-num">≈1–2万</span></div>
+    <div class="cost-tag"><span class="c-lbl">签证公证</span><span class="c-num">≈0.3–0.5万</span></div>
+    <div class="cost-tag" style="background:var(--b-bg)"><span class="c-lbl">总预算</span><span class="c-num">≈12–15万</span></div>
+  </div>
+</div>
+
+<!-- KR-2 世明大学 -->
+<div class="opt-card">
+  <div class="opt-head">
+    <span class="opt-rank">🥈</span>
+    <span class="opt-name">世明大学</span>
+    <span class="badge-lg b-g">广告设计方向最匹配</span>
+  </div>
+  <table>
+    <tr><td style="width:90px">专业</td><td>视觉设计（广告设计、视频动画、插画、平面设计、网页、多媒体、AR/VR、动态图形、包装设计、3D）</td></tr>
+    <tr><td>授课</td><td>中文授课 · 无语言要求</td></tr>
+    <tr><td>学制</td><td>1 年</td></tr>
+    <tr><td>申请</td><td>3月批次：2026.1.19–1.22（第三批）</td></tr>
+    <tr><td>亮点</td><td>广告设计方向<strong>最直接匹配</strong>，课程衔接最好</td></tr>
+  </table>
+  <div class="cost-row">
+    <div class="cost-tag"><span class="c-lbl">学费</span><span class="c-num">≈3–4万</span></div>
+    <div class="cost-tag"><span class="c-lbl">住宿</span><span class="c-num">≈3–4万</span></div>
+    <div class="cost-tag"><span class="c-lbl">伙食交通</span><span class="c-num">≈2–3万</span></div>
+    <div class="cost-tag"><span class="c-lbl">中介费</span><span class="c-num">≈1–2万</span></div>
+    <div class="cost-tag"><span class="c-lbl">签证公证</span><span class="c-num">≈0.3–0.5万</span></div>
+    <div class="cost-tag" style="background:var(--b-bg)"><span class="c-lbl">总预算</span><span class="c-num">≈10–14万</span></div>
+  </div>
+</div>
+
+<!-- KR-3 启明大学 -->
+<div class="opt-card">
+  <div class="opt-head">
+    <span class="opt-rank">🥉</span>
+    <span class="opt-name">启明大学</span>
+    <span class="qs qs-l">QS 亚洲 580</span>
+  </div>
+  <table>
+    <tr><td style="width:90px">专业</td><td>视觉设计系 / 时装设计系 / 动漫影像系 / 工业设计系</td></tr>
+    <tr><td>授课</td><td>中文/双语</td></tr>
+    <tr><td>学制</td><td>1 年</td></tr>
+    <tr><td>申请</td><td>3月批次：2026.1.2–1.9（⚠️已临近）</td></tr>
+    <tr><td>亮点</td><td>百年名校（1899年）· QS亚洲排名</td></tr>
+  </table>
+  <div class="cost-row">
+    <div class="cost-tag"><span class="c-lbl">学费</span><span class="c-num">≈5万</span></div>
+    <div class="cost-tag"><span class="c-lbl">住宿</span><span class="c-num">≈3–4万</span></div>
+    <div class="cost-tag"><span class="c-lbl">伙食交通</span><span class="c-num">≈2–3万</span></div>
+    <div class="cost-tag"><span class="c-lbl">中介费</span><span class="c-num">≈1–2万</span></div>
+    <div class="cost-tag"><span class="c-lbl">签证公证</span><span class="c-num">≈0.3–0.5万</span></div>
+    <div class="cost-tag" style="background:var(--b-bg)"><span class="c-lbl">总预算</span><span class="c-num">≈12–16万</span></div>
+  </div>
+</div>
+
+<!-- KR-other 其他 -->
+<div class="opt-card">
+  <div class="opt-head"><span class="opt-rank">4–6</span><span class="opt-name">其他可选院校</span></div>
+  <table>
+    <thead><tr><th>院校</th><th>专业</th><th>总预算</th><th>3月批次截止</th></tr></thead>
+    <tbody>
+      <tr><td>大邱加图立大学</td><td>视觉设计 / 广告宣传</td><td>≈10–14万</td><td>2026.1.20</td></tr>
+      <tr><td>清州大学</td><td>视觉设计 / 数字媒体设计 / 电影影像</td><td>≈10–14万</td><td>需咨询</td></tr>
+      <tr><td>大真大学</td><td>视觉设计 / 产业设计</td><td>≈10–14万</td><td>需咨询</td></tr>
+    </tbody>
   </table>
 </div>
 
-</div><!-- /tab-cost -->
+<div class="box box-y">
+  <div class="box-tt">⚠️ 韩国 3+1 通用注意事项</div>
+  <ul style="padding-left:18px;margin-top:4px">
+    <li>必须走<strong>留学中介</strong>，个人直申极其困难（中介费约 1–2 万已计入费用）</li>
+    <li>申请窗口极短（1月/7月），2026年9月批次预计5–7月申请</li>
+    <li>毕业需完成韩语课时，入学不要求但毕业可能有要求</li>
+    <li>院校为地方私立大学（非首尔SKY），学位证不标注"中文授课"</li>
+    <li>中留服认证正常，无加强审查记录</li>
+  </ul>
+</div>
 
-<!-- ═══════════════════ TAB: 时间规划 ═══════════════════ -->
-<div class="tab-panel" id="tab-timeline">
+</div><!-- /t-kr -->
+
+<!-- ═══════════════════ TAB: 国内 ═══════════════════ -->
+<div class="tab-panel" id="t-cn">
 
 <div class="card">
-  <h2>📅 从今天到入学的完整时间轴</h2>
-  <p style="color:var(--sub);margin-bottom:14px">学生 <strong>2026 年 6–7 月大专毕业</strong>，目标是毕业后尽快入学。下面是从现在开始到入学，每个月要做什么。</p>
+  <h2>🇨🇳 国内路径 — 不出国的保底</h2>
+  <p style="color:var(--sub)">适合与海外方案并行准备。万一出国没走成，国内一定有一个本科学位保底。</p>
+</div>
 
-  <h3>🥇 EAIM / 🥉 LSBF（新加坡 · 滚动开学：7月/10月/1月）</h3>
-  <div class="tl">
-    <div class="tl-item"><div class="tl-date">2025年 6–7月（现在！）</div><div class="tl-content">📋 确认目标课程 → 开始准备护照（没有的话立刻办，约 15 个工作日）→ 打印大专在读成绩单</div></div>
-    <div class="tl-item"><div class="tl-date">2025年 8–10月</div><div class="tl-content">📝 做<strong>中英文成绩单公证</strong> + 出生证明公证（约 2–3 周出件）→ 准备银行存款证明（≥15 万 RMB，冻结 3–6 个月）→ LSBF 可预约校内英语测试</div></div>
-    <div class="tl-item"><div class="tl-date">2026年 3–4月</div><div class="tl-content">📨 <strong>提交申请</strong>（目标：2026 年 7 月或 10 月入学批次）。大专尚未毕业可先交在读证明+已有成绩单，获 Conditional Offer</div></div>
-    <div class="tl-item"><div class="tl-date">2026年 6–7月</div><div class="tl-content">🎓 拿到大专毕业证 → 立即补交给学校 → 换 Unconditional Offer → 学校提交 Student Pass 申请（约 2–4 周审批）</div></div>
-    <div class="tl-item"><div class="tl-date">2026年 7–10月</div><div class="tl-content">✈️ Student Pass 获批 → 缴费 → 订机票住宿 → <strong>入学</strong>（最早 7 月底，最晚 10 月）</div></div>
-  </div>
-
-  <h3>🥈 韩国 3+1（目标：2026 年 9 月批次 或 2027 年 3 月批次）</h3>
-  <div class="tl">
-    <div class="tl-item"><div class="tl-date">2025年 6–8月（现在！）</div><div class="tl-content">🔍 <strong>立即联系留学中介</strong> → 做学分预评估 → 确认目标院校和专业 → 中介会告知具体材料清单和时间节点。⚠️ 韩国 3+1 几乎不走个人直申，中介是必须的</div></div>
-    <div class="tl-item"><div class="tl-date">2025年 9–12月</div><div class="tl-content">📝 准备公证+双认证材料（大专成绩单、在读证明、亲属关系、存款证明 8–10 万冻结）。⚠️ 双认证耗时 3–6 周，务必提前！同时开始准备 <strong>作品集（Portfolio）</strong>——设计类专业申请的核心加分项</div></div>
-    <div class="tl-item"><div class="tl-date">2026年 5–7月</div><div class="tl-content">📨 <strong>提交 2026 年 9 月批次申请</strong>（此时已拿到毕业证，直接申 Unconditional）。如错过 → 改为 2027 年 3 月批次（2026年12月–2027年1月申请）</div></div>
-    <div class="tl-item"><div class="tl-date">2026年 7–8月</div><div class="tl-content">🛂 录取 → 办 D-2 签证（约 2–4 周）→ 订机票住宿</div></div>
-    <div class="tl-item"><div class="tl-date">2026年 9月</div><div class="tl-content">✈️ <strong>入学韩国</strong>（9 月秋季学期）</div></div>
-  </div>
-
-  <h3>⑥ 国内成考（保底）</h3>
-  <div class="tl">
-    <div class="tl-item"><div class="tl-date">2026年 8–9月</div><div class="tl-content">🖥️ <strong>网上报名</strong> → 各省教育考试院官网（如广东 eea.gd.gov.cn）。⚠️ 每年只有一次报名窗口，错过等一年</div></div>
-    <div class="tl-item"><div class="tl-date">2026年 10月</div><div class="tl-content">📝 参加全国统一入学考试（3 门，1 天考完）</div></div>
-    <div class="tl-item"><div class="tl-date">2026年 12月</div><div class="tl-content">📋 查录取结果</div></div>
-    <div class="tl-item"><div class="tl-date">2027年 3月</div><div class="tl-content">🎓 <strong>入学</strong>（业余/函授制，不影响工作）→ 2029 年 7 月毕业</div></div>
-  </div>
-
-  <div class="box box-green">
-    <div class="box-title">💡 这些路径可以并行准备</div>
-    <p style="margin:4px 0 0">韩国 3+1（5月申请）和国内成考（8月报名）时间不冲突，可以两条腿走路。EAIM/LSBF 滚动开学灵活度最高，万一韩国没走成，立刻转新加坡。</p>
+<div class="opt-card" style="border-color:var(--accent);background:#fafdfb">
+  <div class="opt-head"><span class="opt-rank">🥇</span><span class="opt-name">成人高考专升本</span><span class="badge-lg b-g">保底首选</span></div>
+  <table>
+    <tr><td style="width:90px">入学</td><td>每年10月全国统考（3门：政治+英语+艺术概论，总分450，录取线≈150）</td></tr>
+    <tr><td>学制</td><td>2.5 年固定（业余/函授，不影响工作或同时留学）</td></tr>
+    <tr><td>难度</td><td>极低（年满25岁加20分，录取线仅150/450）</td></tr>
+    <tr><td>认可度</td><td>学信网可查 · 考公/考证/落户有效 · 国企校招受限 · 学位证标"成人高等教育"</td></tr>
+    <tr><td>报名</td><td>每年8–9月 · 各省教育考试院官网（广东：<a href="https://eea.gd.gov.cn">eea.gd.gov.cn</a>）</td></tr>
+  </table>
+  <div class="cost-row">
+    <div class="cost-tag"><span class="c-lbl">学费(3年)</span><span class="c-num">≈0.6–1万</span></div>
+    <div class="cost-tag"><span class="c-lbl">报名费</span><span class="c-num">≈0.02万</span></div>
+    <div class="cost-tag"><span class="c-lbl">教材</span><span class="c-num">≈0.03万</span></div>
+    <div class="cost-tag" style="background:var(--b-bg)"><span class="c-lbl">总预算</span><span class="c-num">&lt;1万</span></div>
   </div>
 </div>
 
-</div><!-- /tab-timeline -->
-
-<!-- ═══════════════════ TAB: 各路径详情 ═══════════════════ -->
-<div class="tab-panel" id="tab-detail">
-
-<div class="card">
-  <h2>📋 每条路径的申请材料 + 流程</h2>
-  <p style="color:var(--sub);margin-bottom:16px">以下为前 5 条推荐路径。其余路径（马来西亚/泰国/雅思路径）详情见费用拆解页和对比总表。</p>
-
-  <h3>🥇 EAIM 中文授课 — 申请材料清单</h3>
-  <ul class="checklist">
-    <li>大专毕业证 + 完整成绩单（中英文公证）</li>
-    <li>护照复印件（有效期 ≥ 6 个月）</li>
-    <li>出生证明（公证+英文翻译）</li>
-    <li>银行存款证明（≥ 15 万 RMB，覆盖学费+生活费）</li>
-    <li>护照尺寸白底照片 × 6</li>
-    <li>学习计划（中文即可，简述为何选择该课程）</li>
-    <li>ICA Form 16 + V36（学校提供模板）</li>
-  </ul>
-  <p style="font-size:.82rem;color:var(--sub)">🔗 在线申请：<a href="https://eaim.edu.sg/zh/admission-international-students/">eaim.edu.sg/zh/admission-international-students/</a> ｜ 📞 +65 6252 5500 ｜ enquiries@easb.edu.sg</p>
-
-  <h3>🥈 韩国 3+1 — 申请材料清单</h3>
-  <ul class="checklist">
-    <li>大专毕业证 + 完整成绩单（中英文公证 + <strong>双认证</strong>——先公证处公证，再外交部+韩国领事馆认证）</li>
-    <li>护照复印件</li>
-    <li>亲属关系公证 + 双认证</li>
-    <li>银行存款证明（约 8–10 万 RMB 冻结 3–6 个月）</li>
-    <li>护照照片</li>
-    <li><strong>作品集（Portfolio）</strong>——广告设计专业的学生强烈建议准备，是申请设计类专业的重要加分</li>
-    <li>自我介绍 + 学习计划（中文即可，中介会帮忙翻译）</li>
-  </ul>
-  <p style="font-size:.82rem;color:var(--sub)">⚠️ 韩国 3+1 建议走留学中介。搜索"韩国 XX 大学 中文授课 专升本 招生简章"找官方合作代理。中介费约 1–2 万 RMB。</p>
-
-  <h3>🥉 LSBF — 申请材料清单</h3>
-  <ul class="checklist">
-    <li>大专毕业证 + 成绩单（中英文公证）</li>
-    <li>护照复印件</li>
-    <li>出生证明（公证+翻译）</li>
-    <li>ICA Form 16/V36（学校提供）</li>
-    <li>护照照片</li>
-    <li>英语水平证明（如有；无则预约校内测试）</li>
-  </ul>
-  <p style="font-size:.82rem;color:var(--sub)">🔗 <a href="https://www.lsbf.edu.sg/admissions/how-to-apply">lsbf.edu.sg/admissions/how-to-apply</a> ｜ 📞 +65 6580 7700 ｜ ⚠️ 申请时确认合作大学选 UEL（东伦敦大学），不选 Greenwich</p>
-
-  <h3>④⑤ PSB / Kaplan — 申请材料清单</h3>
-  <ul class="checklist">
-    <li>与 LSBF 基本相同</li>
-    <li>PSB 另需：个人陈述 + 推荐信（视专业）</li>
-    <li>无雅思者入学后先参加语言分班测试 → 配相应级别语言课程</li>
-  </ul>
-  <p style="font-size:.82rem;color:var(--sub)">🔗 PSB：<a href="https://www.psb-academy.edu.sg">psb-academy.edu.sg</a> ｜ Kaplan：<a href="https://www.kaplan.com.sg">kaplan.com.sg</a></p>
-
-  <h3>⑥ 国内成考 — 申请流程</h3>
-  <ol class="steps">
-    <li>每年 8–9 月网上报名 → 各省教育考试院官网（广东：<a href="https://eea.gd.gov.cn">eea.gd.gov.cn</a>）</li>
-    <li>10 月参加全国统一考试（政治+英语+艺术概论，450 分，录取 ~150）</li>
-    <li>12 月查录取 → 次年 3 月入学 → 2.5 年毕业</li>
-  </ol>
+<div class="opt-card">
+  <div class="opt-head"><span class="opt-rank">2</span><span class="opt-name">统招专升本</span><span class="badge-lg b-y">需备考</span></div>
+  <table>
+    <tr><td style="width:90px">入学</td><td>省级统考（仅限应届全日制专科生）→ 插班全日制大三</td></tr>
+    <tr><td>学制</td><td>2 年全日制</td></tr>
+    <tr><td>认可度</td><td>最高（第一学历变本科）</td></tr>
+    <tr><td>难度</td><td>公办录取率走低，民办相对容易 · 成绩偏下通过率不高</td></tr>
+  </table>
+  <div class="box box-y"><div class="box-tt">⚠️ 对这位学生</div>需要备考，成绩偏下通过概率不高。可以一试，但<strong>不能作为唯一依赖的路径</strong>。</div>
 </div>
 
-</div><!-- /tab-detail -->
+<div class="opt-card">
+  <div class="opt-head"><span class="opt-rank">3</span><span class="opt-name">国家开放大学</span></div>
+  <table>
+    <tr><td>入学</td><td>免试入学 · 线上学习</td></tr>
+    <tr><td>学制</td><td>2.5 年</td></tr>
+    <tr><td>认可度</td><td>最低（仅作为"只要有本科证就行"的最后底线）</td></tr>
+  </table>
+</div>
+
+</div><!-- /t-cn -->
+
+<!-- ═══════════════════ TAB: 其他地区 ═══════════════════ -->
+<div class="tab-panel" id="t-other">
+
+<div class="card">
+  <h2>🌏 其他地区 — 按推荐度排序</h2>
+  <p style="color:var(--sub)">以下路径要么需要英语成绩、要么认证风险偏高、要么超预算。适合作为"如果前面的都走不通"的备选参考。</p>
+</div>
+
+<!-- UK -->
+<div class="opt-card">
+  <div class="opt-head">
+    <span class="opt-rank">1</span>
+    <span class="opt-name">🇬🇧 英国 Top-up 设计类</span>
+    <span class="badge-lg b-y">需雅思</span>
+  </div>
+  <table>
+    <tr><td style="width:90px">学位</td><td>平面设计 / 创意广告 BA Top-up · 考文垂(QS531)/伯明翰城市/德蒙福特/诺森比亚</td></tr>
+    <tr><td>语言</td><td>雅思 6.0(5.5)；<strong>雅思 5.5 可配 4–12 周语言班</strong></td></tr>
+    <tr><td>学制</td><td>1 年</td></tr>
+    <tr><td>优势</td><td>QS排名好 · 1年 · 设计专业对口 · <strong>作品集 > GPA</strong>（成绩差可用作品补）</td></tr>
+  </table>
+  <div class="cost-row">
+    <div class="cost-tag"><span class="c-lbl">学费</span><span class="c-num">≈12–16万</span></div>
+    <div class="cost-tag"><span class="c-lbl">住宿</span><span class="c-num">≈5–8万</span></div>
+    <div class="cost-tag"><span class="c-lbl">生活费</span><span class="c-num">≈4–6万</span></div>
+    <div class="cost-tag"><span class="c-lbl">语言班(如需)</span><span class="c-num">≈1.5–3万</span></div>
+    <div class="cost-tag" style="background:var(--y-bg)"><span class="c-lbl">总预算</span><span class="c-num">≈22–32万</span></div>
+  </div>
+  <div class="box box-g"><div class="box-tt">💡 设计类学生的特殊优势</div>艺术设计类专业申请中<strong>作品集（Portfolio）比 GPA 更重要</strong>。成绩差但作品好的学生，可能拿到比预期更好的录取。这是成绩偏下的设计类学生最大的翻盘机会。</div>
+  <div class="box box-y"><div class="box-tt">⚠️ 代价</div>必须考雅思（或配语言班）· 预算卡在30万上限 · 设计类 Top-up 可选择校有限</div>
+</div>
+
+<!-- 马来西亚 -->
+<div class="opt-card">
+  <div class="opt-head">
+    <span class="opt-rank">2</span>
+    <span class="opt-name">🇲🇾 马来西亚 — 世纪大学 / 英迪大学</span>
+    <span class="badge-lg b-r">认证风险</span>
+  </div>
+  <table>
+    <tr><td>语言</td><td>校内语言班替代雅思</td></tr>
+    <tr><td>学制</td><td>1.5–3 年（取决于学分减免）</td></tr>
+    <tr><td>预算</td><td>≈12–18 万总包</td></tr>
+  </table>
+  <div class="box box-r"><div class="box-tt">🔴 认证风险（必读）</div>马来西亚是中留服加强审查高发区。2025年270所院校被移出认证名单，马来西亚影响最大。SEGi/INTI目前正常但需持续监控。不建议作为首选。</div>
+</div>
+
+<!-- 泰国 -->
+<div class="opt-card">
+  <div class="opt-head">
+    <span class="opt-rank">3</span>
+    <span class="opt-name">🇹🇭 泰国 — 博仁大学 / 西那瓦大学 / 兰实大学</span>
+    <span class="badge-lg b-r">高风险</span>
+  </div>
+  <table>
+    <tr><td>语言</td><td>免语言（中文/中英双语授课）</td></tr>
+    <tr><td>学制</td><td>1–2 年</td></tr>
+    <tr><td>预算</td><td>≈8–15 万总包</td></tr>
+  </table>
+  <div class="box box-r"><div class="box-tt">🔴 风险极高</div>泰国是中留服点名最多国家之一。彭世洛大学已被暂停认证。社会认知度偏低。仅在其他所有路径都走不通时考虑。</div>
+</div>
+
+<!-- 爱尔兰 -->
+<div class="opt-card">
+  <div class="opt-head">
+    <span class="opt-rank">4</span>
+    <span class="opt-name">🇮🇪 爱尔兰 Top-up — 多邻国替代雅思</span>
+    <span class="badge-lg b-y">需英语</span>
+  </div>
+  <table>
+    <tr><td>语言</td><td>多邻国（Duolingo）线上考 · $59 · 48h出分 · 比雅思简单很多</td></tr>
+    <tr><td>学制</td><td>1 年</td></tr>
+    <tr><td>预算</td><td>≈20–25 万</td></tr>
+    <tr><td>限制</td><td>仅接受统招全日制大专 · 必须专业对口 · 设计类专升本可选有限</td></tr>
+  </table>
+</div>
+
+<!-- 澳洲 -->
+<div class="opt-card">
+  <div class="opt-head">
+    <span class="opt-rank">5</span>
+    <span class="opt-name">🇦🇺 澳大利亚 — 认可度最高但超预算</span>
+    <span class="badge-lg b-r">超预算</span>
+  </div>
+  <table>
+    <tr><td>语言</td><td>雅思 6.0–6.5</td></tr>
+    <tr><td>学制</td><td>1–2 年</td></tr>
+    <tr><td>预算</td><td>≈40–50 万（超出30万上限）</td></tr>
+    <tr><td>推荐</td><td>纽卡斯尔大学(QS179) / 悉尼科技大学(QS88) / 伍伦贡(QS167)</td></tr>
+  </table>
+  <div class="box box-y"><div class="box-tt">仅作参考</div>如果预算能放宽到40万+，澳洲是认可度最高的选项。否则不作重点考虑。</div>
+</div>
+
+</div><!-- /t-other -->
+
+<!-- ═══════════════════ TAB: 时间规划 + 申请流程 ═══════════════════ -->
+<div class="tab-panel" id="t-plan">
+
+<div class="card">
+  <h2>📅 从今天到入学 — 时间轴总览</h2>
+  <p style="color:var(--sub)">学生 2026年6–7月大专毕业。以下三条线可<strong>并行准备</strong>，时间不冲突。</p>
+</div>
+
+<div class="opt-card">
+  <div class="opt-head"><span class="opt-rank" style="font-size:1rem">🇸🇬</span><span class="opt-name">新加坡 EAIM / LSBF — 滚动开学（7月/10月/1月）</span></div>
+  <div class="tl">
+    <div class="tl-i"><div class="tld">2025年 6–7月（现在！）</div><div class="tlc">📋 确认课程 → 办护照（如无，15工作日）→ 打印大专成绩单</div></div>
+    <div class="tl-i"><div class="tld">2025年 8–10月</div><div class="tlc">📝 中英文成绩单公证 + 出生证明公证（2–3周）→ 银行存款证明（≥15万，冻结3–6月）→ LSBF可预约校内英语测试</div></div>
+    <div class="tl-i"><div class="tld">2026年 3–4月</div><div class="tlc">📨 <strong>提交申请</strong>（目标2026年7月/10月入学）→ 可先交在读证明获 Conditional Offer</div></div>
+    <div class="tl-i"><div class="tld">2026年 6–7月</div><div class="tlc">🎓 拿到毕业证 → 补交 → Unconditional Offer → 学校提交 Student Pass（2–4周）</div></div>
+    <div class="tl-i"><div class="tld">2026年 7–10月</div><div class="tlc">✈️ 获批 → 缴费 → 订机票住宿 → <strong>入学</strong></div></div>
+  </div>
+</div>
+
+<div class="opt-card">
+  <div class="opt-head"><span class="opt-rank" style="font-size:1rem">🇰🇷</span><span class="opt-name">韩国 3+1 — 2026年9月批次（或2027年3月）</span></div>
+  <div class="tl">
+    <div class="tl-i"><div class="tld">2025年 6–8月（现在！）</div><div class="tlc">🔍 <strong>立即联系留学中介</strong> → 学分预评估 → 确认目标院校。⚠️ 必须走中介</div></div>
+    <div class="tl-i"><div class="tld">2025年 9–12月</div><div class="tlc">📝 公证+双认证（耗时3–6周！）→ 准备<strong>作品集</strong>（设计类核心加分）→ 存款证明（8–10万冻结）</div></div>
+    <div class="tl-i"><div class="tld">2026年 5–7月</div><div class="tlc">📨 <strong>提交 2026年9月批次申请</strong>（已有毕业证）→ 如错过改2027年3月批次</div></div>
+    <div class="tl-i"><div class="tld">2026年 7–8月</div><div class="tlc">🛂 录取 → D-2签证（2–4周）→ 订机票住宿</div></div>
+    <div class="tl-i"><div class="tld">2026年 9月</div><div class="tlc">✈️ <strong>入学</strong></div></div>
+  </div>
+</div>
+
+<div class="opt-card">
+  <div class="opt-head"><span class="opt-rank" style="font-size:1rem">🇨🇳</span><span class="opt-name">国内成考 — 保底 · 2027年3月入学</span></div>
+  <div class="tl">
+    <div class="tl-i"><div class="tld">2026年 8–9月</div><div class="tlc">🖥️ 网上报名（各省教育考试院官网）⚠️ 每年仅一次窗口</div></div>
+    <div class="tl-i"><div class="tld">2026年 10月</div><div class="tlc">📝 全国统考（3门，1天考完）</div></div>
+    <div class="tl-i"><div class="tld">2026年 12月</div><div class="tlc">📋 查录取结果</div></div>
+    <div class="tl-i"><div class="tld">2027年 3月</div><div class="tlc">🎓 入学 → 2029年7月毕业</div></div>
+  </div>
+</div>
+
+<div class="card">
+  <h2>📋 通用申请材料清单</h2>
+  <table>
+    <thead><tr><th>材料</th><th>新加坡</th><th>韩国</th><th>国内成考</th></tr></thead>
+    <tbody>
+      <tr><td>大专毕业证 + 成绩单</td><td>中英文公证</td><td>中英文公证 + <strong>双认证</strong></td><td>原件</td></tr>
+      <tr><td>护照</td><td>✅</td><td>✅</td><td>—</td></tr>
+      <tr><td>出生证明</td><td>公证+翻译</td><td>公证+双认证</td><td>—</td></tr>
+      <tr><td>银行存款证明</td><td>≥15万 RMB</td><td>≥8–10万 RMB 冻结</td><td>—</td></tr>
+      <tr><td>证件照</td><td>白底 ×6</td><td>白底 ×4</td><td>电子版</td></tr>
+      <tr><td>学习计划/PS</td><td>中文或英文</td><td>中介帮翻译</td><td>—</td></tr>
+      <tr><td>作品集(Portfolio)</td><td>—</td><td><strong>强烈建议</strong></td><td>—</td></tr>
+      <tr><td>中介费</td><td>—（可直申）</td><td>≈1–2万</td><td>—</td></tr>
+    </tbody>
+  </table>
+</div>
+
+</div><!-- /t-plan -->
 
 <!-- ═══════════════════ TAB: 风险与自查 ═══════════════════ -->
-<div class="tab-panel" id="tab-risk">
+<div class="tab-panel" id="t-risk">
 
 <div class="card">
-  <h2>⚠️ 中留服认证风险（2024–2025 官方数据）</h2>
+  <h2>⚠️ 2024–2025 中留服风险名单</h2>
   <p style="color:var(--sub);margin-bottom:12px">来源：<a href="https://zwfw.cscse.edu.cn/zwfw/lxfwzxwsfwdt2020/xlxwrz32/543994/index.html" target="_blank">教育部留学服务中心公告汇总</a></p>
 
-  <h3>🔴 暂停受理（选了就白读）</h3>
+  <h3>🔴 暂停受理（选了白读）</h3>
   <table><thead><tr><th>院校</th><th>国家</th><th>日期</th></tr></thead><tbody><tr><td>彭世洛大学</td><td>🇹🇭 泰国</td><td>2025.5.29</td></tr></tbody></table>
 
-  <h3>🟠 加强审查中（认证需 ≥60 工作日）</h3>
+  <h3>🟠 加强审查（认证需 ≥60 工作日）</h3>
   <table><thead><tr><th>院校/项目</th><th>国家</th><th>涉及</th><th>日期</th></tr></thead>
     <tbody>
-      <tr><td>百纳利管理与创业大学</td><td>🇲🇾</td><td>—</td><td>2025.10</td></tr>
-      <tr><td><strong>LSBF × 格林威治大学</strong></td><td>🇸🇬</td><td>MBA</td><td>2024.11 公告(六)</td></tr>
-      <tr><td>格乐大学</td><td>🇹🇭</td><td>博士</td><td>2024.11 公告(六)</td></tr>
-      <tr><td>易三仓大学</td><td>🇹🇭</td><td>博士</td><td>2024.11 公告(六)</td></tr>
+      <tr><td>百纳利管理与创业大学</td><td>🇲🇾</td><td>—</td><td>2025.10 新增</td></tr>
+      <tr><td><strong>LSBF × 格林威治大学</strong></td><td>🇸🇬</td><td>MBA</td><td>公告(六) 2024.11</td></tr>
+      <tr><td>格乐大学</td><td>🇹🇭</td><td>博士</td><td>公告(六) 2024.11</td></tr>
+      <tr><td>易三仓大学</td><td>🇹🇭</td><td>博士</td><td>公告(六) 2024.11</td></tr>
       <tr><td>克莱蒙高等商学院</td><td>🇫🇷</td><td>再次违规</td><td>2025.5</td></tr>
       <tr><td>亚当森大学</td><td>🇵🇭</td><td>再次违规</td><td>2025.5</td></tr>
     </tbody>
   </table>
 
-  <h3>🟡 2025 年大调整</h3>
-  <p>中留服更新认证名单，<strong>270 所院校被移出</strong>，马来西亚受冲击最大。新加坡、韩国、英国、爱尔兰、澳洲基本稳定。</p>
+  <h3>🟡 2025年大调整</h3>
+  <p>中留服更新认证名单，<strong>270 所院校被移出</strong>。马来西亚受冲击最大。新加坡、韩国、英国、爱尔兰基本稳定。</p>
 </div>
 
 <div class="card">
-  <h2>📌 推荐路径按认证安全分级</h2>
+  <h2>📌 推荐方案的认证安全性</h2>
   <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px">
     <div style="background:#f0faf4;padding:14px;border-radius:10px">
-      <strong style="color:#145c2e">🟢 安全</strong>
+      <strong style="color:#145c2e">🟢 安全 · 放心选</strong>
       <ul style="padding-left:18px;margin:4px 0 0;font-size:.83rem">
-        <li>🥇 EAIM（本科项目）</li><li>🥈 韩国 3+1（全部）</li><li>④⑤ PSB / Kaplan</li><li>⑥ 国内成考</li><li>⑦⑨ 英国/爱尔兰</li>
+        <li>🥇 EAIM（本科部项目）</li><li>🥈 韩国 3+1（全部院校）</li><li>④ PSB / ⑤ Kaplan</li><li>国内 成考/统招/国开</li><li>英国 / 爱尔兰</li>
       </ul>
     </div>
     <div style="background:#fffef8;padding:14px;border-radius:10px">
-      <strong style="color:#7c5e00">🟡 需注意</strong>
+      <strong style="color:#7c5e00">🟡 注意 · 有条件安全</strong>
       <ul style="padding-left:18px;margin:4px 0 0;font-size:.83rem">
-        <li>🥉 LSBF（仅限避开格林威治）</li>
+        <li>🥉 LSBF（仅限选 UEL 合作，避开 Greenwich）</li>
       </ul>
     </div>
     <div style="background:#fff7f7;padding:14px;border-radius:10px">
-      <strong style="color:#8b1a1a">🔴 高风险（不推荐）</strong>
+      <strong style="color:#8b1a1a">🔴 高风险 · 不推荐</strong>
       <ul style="padding-left:18px;margin:4px 0 0;font-size:.83rem">
         <li>马来西亚 SEGi / INTI</li><li>泰国全部</li>
       </ul>
@@ -490,23 +667,28 @@
 </div>
 
 <div class="card">
-  <h2>🔍 付款前必做的自查（两个网站）</h2>
+  <h2>🔍 付款前必查的两个网站</h2>
   <ol class="steps">
-    <li>打开 <a href="https://zwfw.cscse.edu.cn" target="_blank">zwfw.cscse.edu.cn</a> → 认证院校查询 → 选国家 → 搜学校名 → 确认状态为"正常"</li>
-    <li>打开 <a href="http://jsj.moe.gov.cn" target="_blank">jsj.moe.gov.cn</a> → 国外院校 → 按国家查 → 确认学校在教育部认可名单中</li>
+    <li><a href="https://zwfw.cscse.edu.cn" target="_blank">zwfw.cscse.edu.cn</a> → 认证院校查询 → 选国家 → 搜学校名 → 确认状态为"正常"</li>
+    <li><a href="http://jsj.moe.gov.cn" target="_blank">jsj.moe.gov.cn</a> → 国外院校 → 按国家查 → 确认学校在教育部认可名单中</li>
   </ol>
-  <p style="font-size:.82rem;color:var(--sub);margin-top:8px">💡 收藏这两个网址，提交申请前查一次、交学费前再查一次。</p>
+  <p style="font-size:.82rem;color:var(--sub);margin-top:6px">💡 收藏这两个网址，申请前查一次、交学费前再查一次。</p>
 </div>
 
-</div><!-- /tab-risk -->
+</div><!-- /t-risk -->
 
 </div><!-- /wrap -->
 
 <div class="wrap" style="margin-top:0;padding-top:0">
-<div class="card" style="text-align:center;color:var(--sub);font-size:.84rem;background:var(--b-bg);border-color:var(--accent)">
+<div class="card" style="text-align:center;color:var(--sub);font-size:.83rem;background:var(--b-bg);border-color:var(--accent)">
   <p style="font-weight:700;color:var(--text)">📋 建议下一步</p>
-  <p style="margin-top:6px">1. 办护照（如还没有）→ 约 15 个工作日<br>2. 联系韩国 3+1 中介（东国大学 WISE/世明大学 优先），做学分预评估<br>3. 同时了解新加坡 EAIM 和 LSBF，作为备案<br>4. 8 月顺手报国内成考，多一条保底<br>5. 付款前打印本报告"风险"页，逐项自查<br><br>
-  <em>所有数据来自 2025 年 6 月公开信息。实际申请请以院校官网和中留服实时查询为准。</em></p>
+  <p style="margin-top:4px">
+    ① 办护照（如还没有）→ 15 个工作日<br>
+    ② 联系韩国 3+1 中介（东国大学 WISE / 世明大学 优先），做学分预评估<br>
+    ③ 同步了解新加坡 EAIM / LSBF 作为备案<br>
+    ④ 8 月顺手报国内成考作为保底<br>
+    ⑤ 交钱前打印本页"风险"→ 逐项自查中留服认证<br><br>
+  <em>数据截至 2025年6月 · 实际申请请以官网和中留服实时查询为准</em></p>
 </div>
 </div>
 
